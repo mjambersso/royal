@@ -1,0 +1,109 @@
+/*
+	Visualforma Business Center
+	Copyright (c) 2013 - All Rights Reserved
+	Author: pedro.magalhaes@visualforma.pt
+*/
+
+
+
+/* base
+--------------------------------- */
+
+	body, html{margin:0; padding:0}
+	body{background:none; }
+	.clear{clear:both}
+	#beOmnibees{width:710px; height:112px; font-family:Arial,Helvetica,sans-serif; font-size:10px; background:#182942; padding-top:10px;}
+	.wrap{float:left; width:100%; position:relative;}
+	#beOmnibees h2{font-size:11px; color:#FFFFFF; padding:0; margin:0px 8px 7px 7px; text-transform:uppercase; font-weight:bold;}
+
+
+
+/* form
+--------------------------------- */
+
+	input[type='text'], select, option, label{font-family:Arial,Helvetica,sans-serif; font-size:11px;}
+	label{margin-bottom:2px; display:block;}
+
+
+
+/* select hotel
+--------------------------------- */
+
+	.row_0{margin:0px 29px 7px 15px; width:147px; float:left; color:#FFFFFF; height:38px;}
+	.row_0 select{width:147px; border:1px solid #a9a9a9; padding:1px;}
+
+
+/* code
+--------------------------------- */
+
+	.row_10{margin:7px 29px 7px 15px; width:147px; float:left; color:#FFFFFF;}
+	.row_10 input{width:143px; padding:2px; font-size:11px; height:15px; line-height:15px; vertical-align: middle; border:none; border:1px solid #a9a9a9;}
+
+
+/* painel idade das crianças
+--------------------------------- */
+
+	.row_9{float:left; width:100%; margin:0 0 0 14px;}
+	.row_9 h2{width:100%; display:block;}
+	.row_5{margin-left:20px !important;}
+
+
+/* phone
+--------------------------------- */
+
+	.row_11{margin:29px 29px 7px 4px; width:147px; float:left; color:#FFFFFF;}
+
+
+/* checkin & checkout
+--------------------------------- */
+
+	.row_1, .row_2{margin:0px 7px 7px 5px; width:97px; float:left; }
+	.row_2{margin-right:28px;}
+	.row_1 .col_1, .row_2 .col_1{float:left; width:58px; display:block;}
+	.row_1 .col_1,
+	.row_2 .col_1{width:117px; float:left;}
+	.row_1 .col_1 label,
+	.row_2 .col_1 label{color:#FFFFFF;}
+	.row_1 input,
+	.row_2 input{width:76px; padding:2px; border:1px solid #a9a9a9; text-indent:2px;}
+	.row_1 .col_2,
+	.row_2 .col_2{width:95px; float:left; position:relative;}
+	.row_1 .col_3,
+	.row_2 .col_3{width:14px; height:15px; float:right; position:relative;}
+	.row_1 .col_2 a,
+	.row_2 .col_2 a{text-indent:-99999px; width:14px; height:15px; display:inline-block; background:url(../../images/icon_calemdario.gif) no-repeat; position:absolute; top:2px; right:-3px;}
+	.ie7 .row_1 .col_3 a,
+	.ie7  .row_2 .col_3 a{top:2px;}
+
+
+
+/* quartos, adultos, crianças
+--------------------------------- */
+
+	.row_3{margin:0px 0 7px 5px; float:left;}
+	.row_3 .col_1{width:47px; float:left; text-align:center; margin:0 14px 0 0;}
+	.row_3 .col_2{width:47px; float:left; text-align:center; margin:0 29px 0 0;}
+	.row_3 .col_3{width:47px; float:left; text-align:center; margin:0 14px 0 0;}
+	.row_3 .col_4{width:49px; float:left; text-align:center; margin:0 0 0 0;}
+	.row_3 .col_4 input{border:1px solid #a9a9a9; width:47px; padding:2px 1px; font-family:Arial,Helvetica,sans-serif; font-size:11px; position:relative; color:#5F7175; text-indent:2px;}
+	.row_3 label{text-align:left; padding-bottom:1px; display:block; color:#FFFFFF;}
+	.row_3 select{width:47px; color:#5F7175; border:1px solid #a9a9a9; padding:1px; float:left;}
+
+	/* idades das crianças */
+	.row_5, .row_6{margin:5px 0 0px 5px;  float:left;}
+	.row_5 .col_1, .row_6 .col_1{width:47px; float:left; text-align:center; margin:0 14px 0 0;}
+	.row_5 .col_2, .row_6 .col_2{width:47px; float:left; text-align:center; margin:0 2px 0 0;}
+	.row_5 .col_3, .row_6 .col_3{width:47px; float:left; text-align:center; margin:0 2px 0 0;}
+	.row_5 .col_4, .row_6 .col_4{width:47px; float:left; text-align:center; margin:0 0 0 0;}
+	.row_5 .col_4 input, .row_6 .col_4 input{width:42px; padding:0px; font-family:Arial,Helvetica,sans-serif; font-size:10px;}
+	.row_5 label, .row_6 label{text-align:left; padding-bottom:1px; display:block; color:#FFFFFF;}
+	.row_5 select, .row_6 select{width:47px; padding:0; border:1px solid #a9a9a9;}
+	.row_6{display:none !important;}
+
+	/* pesquisar */
+	.row_4{margin:0px 0 0px 0px; width:176px; float:left;}
+	.row_4 input{text-align:center; text-transform:uppercase; position:absolute; top:59px; right:27px; width:176px; height:30px; font-size:13px; line-height:30px; color:#5F7175; cursor:pointer; border:none; background:#fff; font-family:Arial, Helvetica, sans-serif;}
+
+	/* pesquisar */
+	.row_7{margin:0px 0 0px 0px; width:176px; float:left;}
+	.row_7 input{text-align:center; text-transform:uppercase; position:absolute; top:53px; right:27px; width:176px; height:30px; font-size:13px; line-height:30px; color:#5F7175; cursor:pointer; border:none; background:#fff; font-family:Arial, Helvetica, sans-serif;}
