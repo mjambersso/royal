@@ -126,7 +126,7 @@ function be2() {
 	// 1 quarto
 	if(NRooms == 1){        
         var childAges = $('#childAgesVal').val();
-		var searchParameters = "?q=" + property + "&CheckIn=" + CheckIn + "&CheckOut=" + CheckOut + "&NRooms=" + NRooms + "&ad=" + nr_adults + "&ch=" + nr_childs + "&ag=" + childAges + "&Code=" + promoCode + "";		
+		var searchParameters = "?c=" + property + "&CheckIn=" + CheckIn + "&CheckOut=" + CheckOut + "&NRooms=" + NRooms + "&ad=" + nr_adults + "&ch=" + nr_childs + "&ag=" + childAges + "&Code=" + promoCode + "";		
 	}
 	
 	// varios quartos	
