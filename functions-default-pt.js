@@ -178,7 +178,7 @@ function be2() {
 	}
 	
 	// window open
-	 window.open("https://myreservations.omnibees.com/default.aspx" + searchParameters + "", "_blank");
+	 window.open("https://myreservations.omnibees.com/chain.aspx" + searchParameters + "", "_blank");
 }
 
 function bindUIDatepicker(){
