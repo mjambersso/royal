@@ -173,7 +173,7 @@ function be2() {
         var strRChildsAges = strChildAges.replace(/,/gi,",");
 		
 		// search parammeters
-		var searchParameters = "?q=" + property + "&CheckIn=" + CheckIn + "&CheckOut=" + CheckOut + "&NRooms=" + NRooms + "&ad=" + strRAdults + "&ch=" + strChilds + "&ag=" + strRChildsAges + "&Code=" + promoCode + "";		
+		var searchParameters = "?c=" + property + "&CheckIn=" + CheckIn + "&CheckOut=" + CheckOut + "&NRooms=" + NRooms + "&ad=" + strRAdults + "&ch=" + strChilds + "&ag=" + strRChildsAges + "&Code=" + promoCode + "";		
 		
 	}
 	
